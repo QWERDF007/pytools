@@ -47,7 +47,7 @@ class Scp:
 
     def _connect(self):
         try:
-            self._ssh.connect(self._username, self._port, self._username, self._password)
+            self._ssh.connect(self._hostname, self._port, self._username, self._password)
             self._sftp = self._ssh.open_sftp()
             self._connected = True
             self._try_times = 0

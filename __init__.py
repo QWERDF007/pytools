@@ -1,3 +1,3 @@
-from .scp import Scp
+from comm.scp import Scp
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
